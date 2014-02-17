@@ -1,6 +1,8 @@
 # ntpclient
 -------
 
+[![GoDoc](https://godoc.org/github.com/bt51/ntpclient?status.png)](https://godoc.org/github.com/bt51/ntpclient)
+
 ntpclient is a simple NTP client for go. It supports NTP version 4 and SNTP. Note that this client currently does not take network delay into account. This means the time that is received will not be accurate to the nanosecond.
 
 ## Installation

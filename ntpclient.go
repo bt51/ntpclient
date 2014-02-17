@@ -11,8 +11,8 @@ import (
     "time"
 )
 
-// Return the current UTC time from the remote NTP server
-// using the provided server and port
+// GetNetworkTime retrieves the current UTC time from the remote NTP server
+// It returns the go time.Time type of the current time in UTC.
 func GetNetworkTime(server string, port int) (*time.Time, error) {
     var second, fraction uint64
 
